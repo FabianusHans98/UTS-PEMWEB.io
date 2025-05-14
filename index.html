@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PLN Nusa Daya</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+    header, footer { background-color: #003366; color: white; padding: 1em; text-align: center; }
+    nav { background: #00509e; padding: 0.5em; text-align: center; }
+    nav a { color: white; margin: 0 10px; text-decoration: none; font-weight: bold; }
+    .container { padding: 20px; max-width: 1200px; margin: auto; }
+    .section-title { color: #003366; margin-bottom: 10px; }
+    .vision-mission { display: flex; gap: 20px; flex-wrap: wrap; }
+    .vision, .mission { flex: 1; background: white; padding: 15px; border-radius: 10px; min-width: 280px; }
+    .news-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+    .news-card { position: relative; overflow: hidden; border-radius: 10px; color: white; }
+    .news-card img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .news-overlay { position: absolute; bottom: 0; background: rgba(0,0,0,0.6); padding: 20px; width: 100%; box-sizing: border-box; }
+    .news-overlay h3 { margin-top: 0; font-size: 1.2em; }
+    .news-overlay p { margin: 0.5em 0; font-size: 0.9em; }
+    .contact { background: white; padding: 20px; border-radius: 10px; }
+    .contact form input, .contact form textarea { width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px; }
+    .contact form button { padding: 10px 15px; background-color: #00509e; color: white; border: none; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PT PLN Nusa Daya</h1>
+    <img src="PLN NUSA DAYA.png" alt="Logo PLN" style="width: 300px;">
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#news">News</a>
+    <a href="#news-detail">News Detail</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
+
+  <div class="container">
+
+    <!-- Home -->
+    <section id="home">
+      <h2 class="section-title">Selamat Datang di Website Resmi PLN Nusa Daya</h2>
+      <p>PLN Nusa Daya adalah anak perusahaan PT PLN (Persero) yang berperan penting dalam penyediaan dan pengelolaan energi listrik di kawasan timur Indonesia.</p>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <h2 class="section-title">About Us</h2>
+      <p><strong>PT Pelayanan Listrik Nasional Nusa Daya (PT PLN Nusa Daya)</strong> atau disingkat <strong>PLN ND</strong> adalah salah satu Anak Perusahaan PT PLN (Persero) yang berkedudukan di Pulau Tarakan, Provinsi Kalimantan Utara. Perusahaan ini dibentuk berdasarkan Surat Keputusan Direksi PT PLN (Persero) No. 258-1/010/DIR/2003 tanggal 17 Oktober 2003 dan disahkan melalui Akta Notaris H. Haryanto SH, MBA No. 18 tanggal 15 Desember 2003.</p>
+
+      <p>PLN Nusa Daya telah menjalankan bisnis penyediaan dan penjualan tenaga listrik yang terintegrasi sejak tahun 2003 hingga tahun 2016, dengan menerapkan tarif regional yang berbeda dari tarif dasar listrik (TDL) nasional di Pulau Tarakan.</p>
+
+      <p>Untuk mengantisipasi dinamika bisnis, berdasarkan Keputusan RUPS Sirkuler No. 109/DIR/2016 tanggal 30 November 2016, dan dikukuhkan dalam Anggaran Dasar PLN Nusa Daya Perubahan No. 5 tanggal 7 Desember 2016, pemegang saham menugaskan PLN Nusa Daya untuk mengelola:</p>
+      <ul>
+        <li>Jasa Operasi & Pemeliharaan Pembangkit (KIT)</li>
+        <li>Jasa Operasi & Pemeliharaan Transmisi</li>
+        <li>Jasa Operasi & Pemeliharaan Distribusi (YANTEK)</li>
+        <li>Pelayanan Pelanggan (BILLMAN)</li>
+      </ul>
+      <p>Wilayah operasional mencakup Kalimantan, Sulawesi, Nusa Tenggara, Maluku, dan Papua, dengan kantor pusat berlokasi di Kota Balikpapan, Kalimantan Timur.</p>
+
+      <p>Selain itu, PLN Nusa Daya memiliki fokus dalam pengelolaan jasa operasi dan pemeliharaan pembangkit, transmisi, distribusi, serta pelayanan pelanggan di berbagai wilayah Indonesia Timur.</p>
+
+      <div class="vision-mission">
+        <div class="vision">
+          <h3>Visi</h3>
+          <p>Menjadi perusahaan energi yang terdepan dan terpercaya dalam mendukung pembangunan nasional melalui penyediaan energi listrik yang andal, ramah lingkungan, dan berkelanjutan.</p>
+        </div>
+        <div class="mission">
+          <h3>Misi</h3>
+          <ul>
+            <li>Menyediakan layanan kelistrikan yang andal dan efisien.</li>
+            <li>Meningkatkan kepuasan pelanggan dengan pelayanan prima.</li>
+            <li>Mendorong penggunaan energi baru dan terbarukan.</li>
+            <li>Berinovasi dalam teknologi energi dan digitalisasi.</li>
+            <li>Menjaga keselamatan kerja dan lingkungan.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- News -->
+    <section id="news">
+      <h2 class="section-title">News</h2>
+      <div class="news-grid">
+        <div class="news-card">
+          <img src="PLN NUSA DAYA HADIR DI IBU KOTA NUSANTARA!.jpg" alt="PLN di IKN">
+          <div class="news-overlay">
+            <h3>PLN NUSA DAYA HADIR DI IBU KOTA NUSANTARA!</h3>
+            <p>Direktur Operasi dan Pengembangan Usaha hadir di IKN bersama tim PLN ND.</p>
+          </div>
+        </div>
+        <div class="news-card">
+          <img src="Peringatan Hari Kebaya Nasional.jpg" alt="Hari Kebaya">
+          <div class="news-overlay">
+            <h3>Peringatan Hari Kebaya Nasional</h3>
+            <p>Karyawati PLN Nusa Daya tampil anggun memperingati Hari Kebaya Nasional.</p>
+          </div>
+        </div>
+        <div class="news-card">
+          <img src="Selamat Hari Anak Nasional!.jpg" alt="Hari Anak Nasional">
+          <div class="news-overlay">
+            <h3>Selamat Hari Anak Nasional!</h3>
+            <p>PLN Nusa Daya mendukung masa depan anak-anak bangsa melalui energi bersih.</p>
+          </div>
+        </div>
+        <div class="news-card">
+          <img src="Penandatanganan Nota Kesepahaman PT PLN Nusa Daya dengan IT PLN.jpg" alt="MoU">
+          <div class="news-overlay">
+            <h3>MoU PLN Nusa Daya dan IT PLN</h3>
+            <p>Penandatanganan kerjasama dalam pengembangan SDM unggul untuk masa depan.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- News Detail -->
+    <section id="news-detail">
+      <h2 class="section-title">News Detail</h2>
+      <h3>Penandatanganan Nota Kesepahaman PT PLN Nusa Daya dengan IT PLN</h3>
+
+      <p>Dengan terus meningkatnya harapan pelanggan dalam hal ini PT PLN (Persero) terhadap layanan yang diberikan oleh PT PLN Nusa Daya, merupakan bukti nyata bahwa <strong>People Development</strong> yang saat ini menjadi salah satu pilar <em>Operational Excellence</em> telah terimplementasi dengan baik.</p>
+
+      <p>Selaku Anak Perusahaan yang memiliki bisnis proses utama sebagai pengelola tenaga kerja, kapasitas SDM yang dimiliki oleh PT PLN Nusa Daya untuk mengelola bisnis utama terus dilakukan penyelarasan, di mana diperlukan sumber tenaga kerja yang berlatar belakang teknik ataupun non-teknik untuk mengisi posisi yang masih kosong khususnya pada fungsi pelaksana/fungsional.</p>
+
+      <p>Di samping itu, tenaga kerja yang dimiliki harus terus dilakukan pengembangan baik dari segi <em>skill</em> maupun <em>knowledge</em> secara berkala sehingga diharapkan PT PLN Nusa Daya memiliki kapasitas dan kapabilitas yang baik untuk mengeksekusi program-program yang telah direncanakan.</p>
+
+      <p><strong>Prof. Dr. Ir. Iwa Garniwa M.K., M.T., IPU</strong> sebagai Rektor IT PLN menyampaikan, “Dengan adanya kerja sama antara PT PLN Nusa Daya dengan Institut Teknologi PLN menjadi peluang yang baik bagi IT PLN untuk dapat berkolaborasi meningkatkan kapasitas dan kapabilitas tenaga kerja sesuai dengan yang diharapkan oleh PLN Nusa Daya. Terima kasih atas kepercayaannya kepada IT PLN karena kami memiliki alumni-alumni terbaik yang telah menempuh pendidikan yang dapat memahami proses bisnis yang ada di PLN Group, sehingga sangat terbantu jika alumni terbaik dari IT PLN dapat bergabung dengan PLN Nusa Daya untuk mendukung pelaksanaan program-program yang ada di Perseroan.”</p>
+
+      <p><strong>Direktur Utama PT PLN Nusa Daya, Bapak Feby Joko Priharto</strong> dalam kesempatan ini sepakat untuk membuka peluang selebar-lebarnya bagi mahasiswa/i IT PLN yang ingin mendapatkan pembelajaran pada proses bisnis yang ada di PT PLN Nusa Daya melalui program magang, sehingga kerja sama yang dilakukan ini akan saling memberikan kontribusi yang baik bagi kita semua,” tutupnya.</p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2 class="section-title">Contact Us</h2>
+      <div class="contact">
+        <form>
+          <input type="text" placeholder="Nama Anda" required>
+          <input type="email" placeholder="Email Anda" required>
+          <textarea rows="5" placeholder="Pesan Anda" required></textarea>
+          <button type="submit">Kirim</button>
+        </form>
+        <p>Email: plnnd@plnnusadaya.co.id</p>
+        <p>Telepon: 0542-8703981; 0542-8506674</p>
+        <p>Fax: 0778-463143</p>
+        <p>Alamat: Jl. Letjen ZA Maulani No. 78, Balikpapan, Kalimantan Timur</p>
+        <p>Website: <a href="https://plnnusadaya.co.id" target="_blank">plnnusadaya.co.id</a></p>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 PT PLN Nusa Daya. All Rights Reserved</p>
+  </footer>
+
+  <script>
+    // Interaksi form
+    document.querySelector("form")?.addEventListener("submit", function (e) {
+      e.preventDefault();
+      alert("Pesan Anda berhasil dikirim!");
+    });
+  </script>
+</body>
+</html>
